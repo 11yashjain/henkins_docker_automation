@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the latest code from GitHub repository
-                git branch: 'main', url: 'https://github.com/11yashjain/henkins_docker_automation.git' // replace with your repo URL
+                git branch: 'master', url: 'https://github.com/11yashjain/henkins_docker_automation.git' // replace with your repo URL
             }
         }
 
